@@ -1,5 +1,7 @@
 package driver;
 
+import model.*;
+
 public class CommunityCenterDriver {
 
 	/**
@@ -7,6 +9,7 @@ public class CommunityCenterDriver {
 	 */
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
+		Building stearns = new Building("Stearns East");
 
 	}
 
